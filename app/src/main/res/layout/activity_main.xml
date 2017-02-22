@@ -20,12 +20,6 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true">
 
-        <ListView
-            android:layout_width="match_parent"
-            android:layout_height="415dp"
-            android:layout_weight="0.50"
-            android:id="@+id/listView" />
-
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -35,19 +29,19 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
-                android:text="Name"
                 android:ems="10"
                 android:id="@+id/editText"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:hint="Name" />
 
             <EditText
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
-                android:text="Phone#"
                 android:ems="10"
                 android:id="@+id/editText2"
                 android:layout_width="0dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:hint="Phone#" />
 
             <Button
                 android:text="ADD"
@@ -56,6 +50,12 @@
                 android:id="@+id/Button"
                 android:layout_weight="0.04" />
         </LinearLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="415dp"
+            android:layout_weight="0.50"
+            android:id="@+id/listView" />
 
     </LinearLayout>
 </RelativeLayout>

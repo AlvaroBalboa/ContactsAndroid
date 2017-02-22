@@ -9,11 +9,11 @@ public class Contacts {
     String fullPhoneNumber;
 
 
-    @Override
-    public String toString(){
-        fullPhoneNumber="("+fullPhoneNumber.substring(0,2)+")"+fullPhoneNumber.substring(3,6)+"-"+fullPhoneNumber.substring(7,10);
-        return String.format(fullName+" "+fullPhoneNumber);
-    }
+//    @Override
+//    public String toString(){
+//        fullPhoneNumber="("+fullPhoneNumber.substring(0,2)+")"+fullPhoneNumber.substring(3,6)+"-"+fullPhoneNumber.substring(7,10);
+//        return String.format(fullName+" "+fullPhoneNumber);
+//    }
 
     public Contacts() {
     }
